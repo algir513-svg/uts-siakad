@@ -1,0 +1,124 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0b1c2c, #13293d);
+    color: #e6edf3;
+}
+
+/* CONTAINER */
+.container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 25px;
+    background: #13293d;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* JUDUL */
+h1 {
+    text-align: center;
+    color: #4cc9f0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #a0bcd5;
+}
+
+/* FORM */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    background: #0b1c2c;
+    color: #fff;
+}
+
+/* FOCUS */
+form input:focus,
+form textarea:focus {
+    outline: 1px solid #4cc9f0;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #1f6feb, #4cc9f0);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOVER BUTTON */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #4cc9f0;
+}
+
+/* CARD */
+.card {
+    background: #0b1c2c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* TEXT */
+p {
+    margin: 5px 0;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* HEADER TABLE */
+th {
+    padding: 12px;
+    text-align: left;
+    background: #1f3a52;
+    color: #4cc9f0;
+}
+
+/* ISI TABLE */
+td {
+    padding: 12px;
+    border-bottom: 1px solid #1f3a52;
+}
+
+/* HOVER ROW */
+tr:hover {
+    background: #1b3a57;
+}
+
+/* ANIMASI */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
